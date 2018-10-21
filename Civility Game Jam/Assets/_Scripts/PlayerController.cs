@@ -37,9 +37,11 @@ public class PlayerController : MonoBehaviour {
         timer += Time.deltaTime;
         // Debug.Log(timer);
 
+        /*
         if (timer > spawnTime && ! GameObject.FindWithTag("Pusher")) {
             GameObject pusherClone = Instantiate(pusher, new Vector2(startX, startY), this.transform.rotation) as GameObject;
         }
+        */
 
         if (Input.GetKeyDown(KeyCode.Space)) {
             Jump(); 
