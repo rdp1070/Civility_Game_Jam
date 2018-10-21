@@ -7,6 +7,7 @@ TagManager:
   - Floor
   - Pusher
   - Door
+  - tiny part
   layers:
   - Default
   - TransparentFX

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/Pusher Test Scene.unity
+- path: Assets/_Scenes/Ray Detection Scene.unity
   isLoaded: 1
   isActive: 1

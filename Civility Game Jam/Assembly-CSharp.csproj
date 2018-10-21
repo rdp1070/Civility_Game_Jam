@@ -61,11 +61,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_Scripts\CutterController.cs" />
     <Compile Include="Assets\_Scripts\DoorAction.cs" />
     <Compile Include="Assets\_Scripts\PlayerController.cs" />
     <Compile Include="Assets\_Scripts\PusherMovement.cs" />
     <Compile Include="Assets\_Scripts\ShapeChunkController.cs" />
     <Compile Include="Assets\_Scripts\ShapeGenerator.cs" />
+	<Compile Include="Assets\_Scripts\RayCut.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>Z:/IGMProfile/Desktop/Civility_Game_Jam/Civility Game Jam/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
