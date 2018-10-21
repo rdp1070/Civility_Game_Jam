@@ -13,9 +13,11 @@ public class PlayerController : MonoBehaviour {
     private float timer;
 
     public GameObject pusher;
+    public GameObject startPoint;
 
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start () {
         rb = GetComponent<Rigidbody2D>();
         onFloor = true;
 
@@ -25,11 +27,14 @@ public class PlayerController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+        float startX = startPoint.transform.position.x;
+        float startY = startPoint.transform.position.y;
+
         timer += Time.deltaTime;
         // Debug.Log(timer);
 
         if (timer > spawnTime && ! GameObject.FindWithTag("Pusher")) {
-            GameObject pusherClone = Instantiate(pusher, new Vector2(-10, -3.5f), this.transform.rotation) as GameObject;
+            GameObject pusherClone = Instantiate(pusher, new Vector2(startX, startY), this.transform.rotation) as GameObject;
         }
 
         if (Input.GetKeyDown(KeyCode.Space)) {
