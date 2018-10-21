@@ -15,9 +15,13 @@ public class PlayerController : MonoBehaviour {
     public GameObject pusher;
     public GameObject startPoint;
 
+    public ShapeChunkController[] shapeChunks;
 
     // Use this for initialization
     void Start () {
+
+        shapeChunks = GetComponentsInChildren<ShapeChunkController>();
+
         rb = GetComponent<Rigidbody2D>();
         onFloor = true;
 
