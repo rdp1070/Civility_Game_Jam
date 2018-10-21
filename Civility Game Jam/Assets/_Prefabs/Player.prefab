@@ -3075,7 +3075,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1141021161732926}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.5, y: -3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -6122,7 +6122,7 @@ MonoBehaviour:
   jumpHeight: 9
   spawnTime: 5
   pusher: {fileID: 1177445046532408, guid: 9ded5d1912e71a34087c04e7c9800ccc, type: 2}
-  startPoint: {fileID: 0}
+  startPoint: {fileID: 1967909133081400, guid: b8ca238f81dcd8446a21b46521c3a524, type: 2}
   shapeChunks: []
 --- !u!114 &114014196739730860
 MonoBehaviour:
